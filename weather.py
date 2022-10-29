@@ -12,6 +12,7 @@ def internet_connection():
 
 
 # print(internet_connection())
+#Прогноз погоды смогла найти только на ближайшие 3 часа
 
 def weather_forecast():
 
