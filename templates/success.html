@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block title %}Готово{% endblock %}
+
+{% block content %}
+<h1>Успех!</h1>
+<form action="/download" method = "get">
+    <button type="submit" class="btn btn-success">Скачать!</button>
+</form>
+<h3><a href="/">На главную</a></h3>
+{% endblock %}
