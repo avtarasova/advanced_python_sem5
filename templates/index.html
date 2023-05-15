@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}Всем привет! Это я!{% endblock %}
+
+{% block content %}
+<h1 style="color: #5e9ca0;">Добро пожаловать!</h1>
+<h2 style="color: #2e6c80;">Меня зовут Алина Тарасова, мне 21 год.</h2>
+<h2><span style="font-size: 18px;"><img src="{{ url_for('static', filename='photo.jpg') }}" alt="" width="200" height="200"/> <- Это я!</span></h2>
+<ol>
+<li>Комсомолка</li>
+<li>Умница</li>
+<li>Красавица</li>
+<li>Люблю собачек</li>
+<li>Еще кое-что по <a href="/more">ссылке</a></li>
+</ol>
+<h2>А еще я умею разделять PDF-файлы -> <a href="/upload">Жми сюда!</a></h2>
+{% endblock %}
